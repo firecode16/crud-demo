@@ -12,9 +12,9 @@ spring:
     name: crud-demo-service
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    jdbcUrl: jdbc:mysql://192.168.56.101:3306/DB_LOCAL?createDatabaseIfNotExist=true&useSSL=false
-    username: server
-    password: admin123
+    jdbcUrl: jdbc:mysql://192.000.00.000:3306/DB_LOCAL?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: root
     hikari:
       connection-timeout: 60000
       maximum-pool-size: 5
